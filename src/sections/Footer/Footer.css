@@ -5,3 +5,11 @@ footer p {
     padding: calc(var(--padding-primary) / 2);
     letter-spacing: 1px;
 }
+
+footer p a {
+    color: var(--color-primary);
+}
+
+footer p a:hover {
+    color: var(--color-primary);
+}
