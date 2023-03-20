@@ -4,7 +4,7 @@ import logo from "../../assets/images/logo.png";
 
 const Header = (props) => {
   return (
-    <div className="navbar navbar-expand-md bg-dark navbar-dark ">
+    <div className="navbar navbar-expand-md navbar-dark cyporg-navbar">
       <div className="container">
         <a href="#home" className="navbar-brand" role="button">
           <img src={logo} alt="" />
