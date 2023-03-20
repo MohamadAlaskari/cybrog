@@ -1,20 +1,29 @@
 import './App.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Container } from './components/index'
-import { Header, Hero, MostPopular, GamingLibrary, Footer } from './sections/index'
+import { Header, Footer } from './sections/index'
+import { Home, Browse, Details } from './pages/index'
 
 
 
 const App = () => {
     return (
         <>
-            <Header />
-            <Container>
-                <Hero />
-                <MostPopular />
-                <GamingLibrary />
+            <BrowserRouter>
 
-            </Container>
-            <Footer />
+                <Header />
+                <Container>
+                    <Routes>
+                        <Route path='/' element={<Home />} />
+                        <Route path='/browse' element={<Browse />} />
+                        <Route path='/details' element={<Details />} />
+
+                    </Routes>
+
+
+                </Container>
+                <Footer />
+            </BrowserRouter>
         </>
     )
 }

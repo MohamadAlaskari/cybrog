@@ -1,4 +1,5 @@
 import "./Header.css";
+import { Link } from 'react-router-dom'
 import { NavItem, NavItemDropDown } from '../../components/index';
 import logo from "../../assets/images/logo.png";
 
@@ -6,9 +7,8 @@ const Header = (props) => {
   return (
     <div className="navbar navbar-expand-md navbar-dark cyporg-navbar">
       <div className="container">
-        <a href="#home" className="navbar-brand" role="button">
-          <img src={logo} alt="" />
-        </a>
+        <Link to="/" className="navbar-brand" ><img src={logo} alt="" /></Link>
+
         <button
           className="navbar-toggler"
           type="button"
@@ -20,38 +20,29 @@ const Header = (props) => {
         <div className="collapse navbar-collapse" id="mainmenu">
           <ul className="navbar-nav ms-auto">
             <NavItem>
-              <a href="#home" className="nav-link" role="button">
-                Home
-              </a>
+              <Link to='/' className="nav-link">Home</Link>
             </NavItem>
             <NavItem>
-              <a href="#browse" className="nav-link" role="button">
-                Browse
-              </a>
+              <Link to='/browse' className="nav-link">Browse</Link>
             </NavItem>
             <NavItemDropDown>
-              <a
-                href="#dropdown"
-                className="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-
-              >Details</a>
+              <Link to='/details' className="nav-link  dropdown-toggle" aria-expanded="false">Details</Link>
 
               <ul className="dropdown-menu">
                 <li>
-                  <a href="#learn" className="dropdown-item">Learn Bootstrap+</a>
+                  <Link to='/#' className="dropdown-item">Learn Bootstrap</Link>
                 </li>
                 <li>
-                  <a href="#next" className="dropdown-item">Where to go next</a>
+                  <Link to='/#' className="dropdown-item">Where to go next</Link>
                 </li>
               </ul>
             </NavItemDropDown>
             <NavItem>
-              <a href="#faq" className="nav-link">Streams</a>
+              <Link to='/#' className="nav-link">Streams</Link>
+
             </NavItem>
             <NavItem>
-              <a href="./index-ar.html" className="nav-link">Profile</a>
+              <Link to='/#' className="nav-link">Profile</Link>
             </NavItem>
           </ul>
         </div>
