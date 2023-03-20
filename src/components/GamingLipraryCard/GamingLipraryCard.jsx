@@ -5,9 +5,9 @@ import { SecondaryButton } from "../../components/index"
 const GamingLipraryCard = (props) => {
     return (
         <>
-            <div className="gaming-library-card">
+            <div className="gaming-library-item">
                 <ul>
-                    <li><img src={props.img} alt={`${props.title} image`} /></li>
+                    <li className='gaming-library-item-img'><img src={props.img} alt={`${props.title} image`} /></li>
                     <li>
                         <h4>{props.title}</h4>
                         <span>{props.category}</span>
@@ -24,7 +24,9 @@ const GamingLipraryCard = (props) => {
                         <h4>Currently</h4>
                         <span>{props.download}</span>
                     </li>
-                    <SecondaryButton>Download</SecondaryButton>
+                    <div>
+                        <SecondaryButton>Download</SecondaryButton>
+                    </div>
                 </ul>
             </div>
         </>

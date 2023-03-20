@@ -9,7 +9,7 @@ import { Home, Browse, Details } from './pages/index'
 const App = () => {
     return (
         <>
-            <BrowserRouter>
+            <BrowserRouter basename={''}>
 
                 <Header />
                 <Container>
