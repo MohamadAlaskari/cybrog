@@ -19,3 +19,15 @@
     background-color: transparent;
     border: 1px solid var(--color-primary);
 }
+
+
+.button.secondary-button a {
+    color: var(--color-primary);
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+}
+
+.button.secondary-button a:hover {
+    color: var(--color-light);
+    background-color: var(--color-primary);
+}

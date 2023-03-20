@@ -1,5 +1,6 @@
 import './GamingLipraryCard.css'
 import React from 'react'
+import { SecondaryButton } from "../../components/index"
 
 const GamingLipraryCard = (props) => {
     return (
@@ -23,7 +24,7 @@ const GamingLipraryCard = (props) => {
                         <h4>Currently</h4>
                         <span>{props.download}</span>
                     </li>
-                    <div className="main-button"><a href="/#">Download</a></div>
+                    <SecondaryButton>Download</SecondaryButton>
                 </ul>
             </div>
         </>
