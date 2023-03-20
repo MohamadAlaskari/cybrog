@@ -1,25 +1,4 @@
-.section-wraper {
-    background-color: var(--color-darkest);
-    border-radius: var(--border-radius-primary);
-    padding: var(--padding-primary);
-    margin-top: var(--margin-primary);
-}
 
-.section-header {
-    margin-bottom: calc(var(--margin-primary) / 2);
-}
-
-.section-header h4 {
-    color: var(--color-light);
-    font-size: 36px;
-    font-weight: var(--font-weight-bold);
-}
-
-.section-header em {
-    color: var(--color-primary);
-    font-style: normal;
-    font-size: 24px;
-}
 
 .most-popular-items {
     display: flex;

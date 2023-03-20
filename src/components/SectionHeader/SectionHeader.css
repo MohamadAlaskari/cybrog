@@ -1,0 +1,16 @@
+.section-header {
+    margin-bottom: calc(var(--margin-primary) / 2);
+}
+
+.section-header h4 {
+    color: var(--color-light);
+    font-size: 36px;
+    font-weight: var(--font-weight-bold);
+}
+
+.section-header em {
+    color: var(--color-primary);
+    font-style: normal;
+    font-size: 24px;
+    margin-left: calc(var(--margin-primary) / 6);
+}
