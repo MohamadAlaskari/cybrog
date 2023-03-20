@@ -23,9 +23,18 @@
 
 .most-popular-item-title {
     font-size: 20px;
+    line-height: 1.5rem;
 }
 
 .most-popular-item h4 span {
     color: #555252;
     font-size: 16px;
+}
+
+.most-popular-item-icon {
+    margin-right: calc(var(--margin-primary) / 7);
+}
+
+.most-popular-item-icon.star {
+    color: #f6ff00;
 }
