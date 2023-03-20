@@ -1,0 +1,27 @@
+:root {
+    /*color -g*/
+    --color-dark: #27292a;
+    --color-darkest: #1f2122;
+    --color-light: #fefefe;
+    --color-primary: #ec6090;
+    /*Color -spicial*/
+    --color-bg-body: var(--color-darkest);
+
+    /*ditances -g*/
+    --distance-primary: 50px;
+    /*ditances -spicial*/
+    --padding-primary: var(--distance-primary);
+    --margin-primary: var(--distance-primary);
+
+    /*border-radius*/
+    --border-radius-primary: calc(var(--distance-primary) / 2);
+    /*fonts*/
+    /*font-weight*/
+    --font-weight-bold: 900px;
+    --font-weight-normal: 400px;
+
+}
+
+body {
+    background-color: var(--color-bg-body);
+}
