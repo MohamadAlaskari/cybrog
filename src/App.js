@@ -1,5 +1,7 @@
 import './App.css'
-import { Header, Container, Hero, Footer } from './components/index'
+import { Container } from './components/index'
+import { Header, Hero, Footer } from './sections/index'
+
 
 
 const App = () => {

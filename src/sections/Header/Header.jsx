@@ -1,5 +1,5 @@
 import "./Header.css";
-import NavItem, { NavItemDropDown } from "../NavItem/NavItem";
+import { NavItem, NavItemDropDown } from '../../components/index';
 import logo from "../../assets/images/logo.png";
 
 const Header = (props) => {
