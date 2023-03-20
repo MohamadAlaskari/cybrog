@@ -1,6 +1,6 @@
 import './App.css'
 import { Container } from './components/index'
-import { Header, Hero, MostPopular, Footer } from './sections/index'
+import { Header, Hero, MostPopular, GamingLibrary, Footer } from './sections/index'
 
 
 
@@ -11,6 +11,8 @@ const App = () => {
             <Container>
                 <Hero />
                 <MostPopular />
+                <GamingLibrary />
+
             </Container>
             <Footer />
         </>

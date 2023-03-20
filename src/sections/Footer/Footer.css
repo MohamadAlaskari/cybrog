@@ -1,0 +1,7 @@
+footer p {
+    color: var(--color-light);
+    text-align: center;
+    font-weight: var(--font-weight-normal);
+    padding: calc(var(--padding-primary) / 2);
+    letter-spacing: 1px;
+}

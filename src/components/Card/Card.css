@@ -12,7 +12,7 @@
 .most-popular-item-img {
     width: 100%;
     border-radius: var(--border-radius-secondary);
-    margin-bottom: calc(var(--margin-primary) / 2)
+    margin-bottom: calc(var(--margin-primary) / 4)
 }
 
 .most-popular-item-content {
@@ -32,9 +32,9 @@
 }
 
 .most-popular-item-icon {
-    margin-right: calc(var(--margin-primary) / 7);
+    margin-right: calc(var(--margin-primary) / 10);
 }
 
 .most-popular-item-icon.star {
-    color: #f6ff00;
+    color: #FFD700;
 }

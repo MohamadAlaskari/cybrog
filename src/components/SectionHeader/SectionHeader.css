@@ -11,6 +11,6 @@
 .section-header em {
     color: var(--color-primary);
     font-style: normal;
-    font-size: 24px;
+    font-size: 32px;
     margin-left: calc(var(--margin-primary) / 6);
 }
