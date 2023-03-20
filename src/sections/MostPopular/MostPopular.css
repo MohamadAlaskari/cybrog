@@ -1,0 +1,59 @@
+.section-wraper {
+    background-color: var(--color-darkest);
+    border-radius: var(--border-radius-primary);
+    padding: var(--padding-primary);
+    margin-top: var(--margin-primary);
+}
+
+.section-header {
+    margin-bottom: calc(var(--margin-primary) / 2);
+}
+
+.section-header h4 {
+    color: var(--color-light);
+    font-size: 36px;
+    font-weight: var(--font-weight-bold);
+}
+
+.section-header em {
+    color: var(--color-primary);
+    font-style: normal;
+    font-size: 24px;
+}
+
+.card-wrapper {
+    background-color: var(--color-dark);
+    border-radius: var(--border-radius-secondary);
+    padding: calc(var(--padding-primary) / 2);
+}
+
+.most-popular-item-img {
+    width: 100%;
+    border-radius: var(--border-radius-secondary);
+    margin-bottom: calc(var(--margin-primary) / 2)
+}
+
+.most-popular-item-content {
+    color: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+}
+
+.most-popular-item-title {
+    font-size: 20px;
+}
+
+.most-popular-item h4 span{
+    color: #555252;
+    font-size: 16px;
+}
+
+.most-popular-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(var(--margin-primary) / 2);
+}
+
+.most-popular-item {
+    flex: 1;
+}
