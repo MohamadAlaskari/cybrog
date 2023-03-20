@@ -1,184 +1,30 @@
-import './MostPopular.css'
-import popular_01 from '../../assets/images/popular_01.jpg'
+import "./MostPopular.css";
+import { Card } from "../../components/index";
+import popular_01 from "../../assets/images/popular_01.jpg"
+
 const MostPopular = () => {
     return (
-        <div className='section-wraper'>
+        <div className="section-wraper">
             <div className="section-header">
-                <h4>Most Popular <em>Right Now</em></h4>
+                <h4>
+                    Most Popular <em>Right Now</em>
+                </h4>
             </div>
             <div className="most-popular-items">
-                <div className="most-popular-item">
-                    <div className="card-wrapper">
-                        <img className='most-popular-item-img' src={popular_01} alt="img_popular_01" />
-                        <div className="most-popular-item-content">
-                            <h4 className="most-popular-item-title">Fortnite <br />
-                                <span>sandbox</span>
-                            </h4>
-                            <ul>
-                                <li><span>4.8</span></li>
-                                <li><span>2.3M</span></li>
-                            </ul>
-                        </div>
+                <Card img={popular_01} title="Fortnite" category="Sandbox" star="4.5" download="1M" />
+                <Card img={popular_01} title="Dota2" category="StreamX" star="4" download="2.3M" />
+                <Card img={popular_01} title="Pubge" category="Battle s" star="4.3" download="3.4M" />
+                <Card img={popular_01} title="Pubge mobile" category="Battle" star="4.3" download="3.4M" />
 
 
-                    </div>
-                </div>
-                <div className="most-popular-item">
-                    <div className="card-wrapper">
-                        <img className='most-popular-item-img' src={popular_01} alt="img_popular_01" />
-                        <div className="most-popular-item-content">
-                            <h4 className="most-popular-item-title">Fortnite <br />
-                                <span>sandbox</span>
-                            </h4>
-                            <ul>
-                                <li><span>4.8</span></li>
-                                <li><span>2.3M</span></li>
-                            </ul>
-                        </div>
 
 
-                    </div>
-                </div>
-                <div className="most-popular-item">
-                    <div className="card-wrapper">
-                        <img className='most-popular-item-img' src={popular_01} alt="img_popular_01" />
-                        <div className="most-popular-item-content">
-                            <h4 className="most-popular-item-title">Fortnite <br />
-                                <span>sandbox</span>
-                            </h4>
-                            <ul>
-                                <li><span>4.8</span></li>
-                                <li><span>2.3M</span></li>
-                            </ul>
-                        </div>
 
 
-                    </div>
-                </div>  <div className="most-popular-item">
-                    <div className="card-wrapper">
-                        <img className='most-popular-item-img' src={popular_01} alt="img_popular_01" />
-                        <div className="most-popular-item-content">
-                            <h4 className="most-popular-item-title">Fortnite <br />
-                                <span>sandbox</span>
-                            </h4>
-                            <ul>
-                                <li><span>4.8</span></li>
-                                <li><span>2.3M</span></li>
-                            </ul>
-                        </div>
 
-
-                    </div>
-                </div>  <div className="most-popular-item">
-                    <div className="card-wrapper">
-                        <img className='most-popular-item-img' src={popular_01} alt="img_popular_01" />
-                        <div className="most-popular-item-content">
-                            <h4 className="most-popular-item-title">Fortnite <br />
-                                <span>sandbox</span>
-                            </h4>
-                            <ul>
-                                <li><span>4.8</span></li>
-                                <li><span>2.3M</span></li>
-                            </ul>
-                        </div>
-
-
-                    </div>
-                </div>  <div className="most-popular-item">
-                    <div className="card-wrapper">
-                        <img className='most-popular-item-img' src={popular_01} alt="img_popular_01" />
-                        <div className="most-popular-item-content">
-                            <h4 className="most-popular-item-title">Fortnite <br />
-                                <span>sandbox</span>
-                            </h4>
-                            <ul>
-                                <li><span>4.8</span></li>
-                                <li><span>2.3M</span></li>
-                            </ul>
-                        </div>
-
-
-                    </div>
-                </div>  <div className="most-popular-item">
-                    <div className="card-wrapper">
-                        <img className='most-popular-item-img' src={popular_01} alt="img_popular_01" />
-                        <div className="most-popular-item-content">
-                            <h4 className="most-popular-item-title">Fortnite <br />
-                                <span>sandbox</span>
-                            </h4>
-                            <ul>
-                                <li><span>4.8</span></li>
-                                <li><span>2.3M</span></li>
-                            </ul>
-                        </div>
-
-
-                    </div>
-                </div>  <div className="most-popular-item">
-                    <div className="card-wrapper">
-                        <img className='most-popular-item-img' src={popular_01} alt="img_popular_01" />
-                        <div className="most-popular-item-content">
-                            <h4 className="most-popular-item-title">Fortnite <br />
-                                <span>sandbox</span>
-                            </h4>
-                            <ul>
-                                <li><span>4.8</span></li>
-                                <li><span>2.3M</span></li>
-                            </ul>
-                        </div>
-
-
-                    </div>
-                </div>  <div className="most-popular-item">
-                    <div className="card-wrapper">
-                        <img className='most-popular-item-img' src={popular_01} alt="img_popular_01" />
-                        <div className="most-popular-item-content">
-                            <h4 className="most-popular-item-title">Fortnite <br />
-                                <span>sandbox</span>
-                            </h4>
-                            <ul>
-                                <li><span>4.8</span></li>
-                                <li><span>2.3M</span></li>
-                            </ul>
-                        </div>
-
-
-                    </div>
-                </div>  <div className="most-popular-item">
-                    <div className="card-wrapper">
-                        <img className='most-popular-item-img' src={popular_01} alt="img_popular_01" />
-                        <div className="most-popular-item-content">
-                            <h4 className="most-popular-item-title">Fortnite <br />
-                                <span>sandbox</span>
-                            </h4>
-                            <ul>
-                                <li><span>4.8</span></li>
-                                <li><span>2.3M</span></li>
-                            </ul>
-                        </div>
-
-
-                    </div>
-                </div>
-                <div className="most-popular-item">
-                    <div className="card-wrapper">
-                        <img className='most-popular-item-img' src={popular_01} alt="img_popular_01" />
-                        <div className="most-popular-item-content">
-                            <h4 className="most-popular-item-title">Fortnite <br />
-                                <span>sandbox</span>
-                            </h4>
-                            <ul>
-                                <li><span>4.8</span></li>
-                                <li><span>2.3M</span></li>
-                            </ul>
-                        </div>
-
-
-                    </div>
-                </div>
             </div>
-        </div >
-    )
-}
+        </div>
+    );
+};
 
-export default MostPopular
+export default MostPopular;
