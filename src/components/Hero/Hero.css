@@ -1,4 +1,5 @@
 .hero-main {
+    background: url('../../assets/images/banner-bg.jpg') no-repeat top right/cover;
     background-color: #27292a;
     color: white;
     border-radius: 25px;
