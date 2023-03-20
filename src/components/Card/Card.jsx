@@ -3,7 +3,6 @@ import './Card.css'
 
 const Card = (props) => {
     return (
-        <div>
             <div className="most-popular-item">
                 <div className="card-wrapper">
                     <img
@@ -27,7 +26,6 @@ const Card = (props) => {
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 

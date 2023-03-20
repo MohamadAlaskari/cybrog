@@ -1,4 +1,9 @@
+.most-popular-item {
+    flex: 1 20%;
+}
+
 .card-wrapper {
+
     background-color: var(--color-dark);
     border-radius: var(--border-radius-secondary);
     padding: calc(var(--padding-primary) / 2);
@@ -23,14 +28,4 @@
 .most-popular-item h4 span {
     color: #555252;
     font-size: 16px;
-}
-
-.most-popular-items {
-    display: flex;
-    flex-wrap: wrap;
-    gap: calc(var(--margin-primary) / 2);
-}
-
-.most-popular-item {
-    flex: 1;
 }
